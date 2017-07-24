@@ -31,8 +31,6 @@ public class ProdutoControlador extends HttpServlet {
         resp.setContentType("text/html");
         String acao = req.getParameter("acao");
         
-        String idProdutoReq = req.getParameter("id");
-        
         if (acao.equals("excluir")) {
         	
             String id = req.getParameter("id");

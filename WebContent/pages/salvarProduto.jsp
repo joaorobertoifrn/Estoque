@@ -166,7 +166,7 @@
 												<div class="form-group">
 													<select id="cbCategoria" class="form-control">
 													<c:forEach var="cat" items="${listarCategoria}">
-														<option name="idCategoria" value="${cat.id}">${cat.nome}</option>
+														<option id="idCategoria" value="${cat.id}">${cat.nome}</option>
 													</c:forEach>
 													</select>
 												</div>
@@ -210,6 +210,7 @@
 									</div>
 								</div>
 							</div>
+						</div>
 						</div>
 				</section>
 			</section>
