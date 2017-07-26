@@ -11,7 +11,8 @@ public class Pedido  implements Serializable {
 	private Integer id;
 	private Integer idCliente;
 	private BigDecimal total;
-	private Date dataCadastro;
+	private String dataCadastro;
+	
 	public Integer getId() {
 		return id;
 	}
@@ -30,10 +31,10 @@ public class Pedido  implements Serializable {
 	public void setTotal(BigDecimal total) {
 		this.total = total;
 	}
-	public Date getDataCadastro() {
+	public String getDataCadastro() {
 		return dataCadastro;
 	}
-	public void setDataCadastro(Date dataCadastro) {
+	public void setDataCadastro(String dataCadastro) {
 		this.dataCadastro = dataCadastro;
 	}
 	@Override

@@ -13,6 +13,7 @@ public class Item  implements Serializable {
 	private Integer qtd;
 	private BigDecimal valor;
 	private BigDecimal subTotal;
+	
 	public Integer getId() {
 		return id;
 	}
